@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+/* Related to page-example.component */
+.our-goals-stepper {
+    display: inline-flex !important;
+    width: 100%;
+    justify-content: center;
+    background: none;
+
+    .mat-horizontal-content-container {
+        display: none;
+    }
+
+    .mat-step-icon {
+        background: none;
+        font-size: 3rem;
+
+        .ng-star-inserted {
+            color: rgb(96, 94, 94) !important;
+        }
+    }
+
+    .mat-step-label, .mat-stepper-horizontal-line {
+        color: rgb(96, 94, 94) !important;
+    }
+
+    .mat-stepper-horizontal-line {
+        border-top-color: rgba(96, 94, 94, .12) !important;
+    }
+}

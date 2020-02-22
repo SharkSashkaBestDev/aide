@@ -1,0 +1,23 @@
+<div class='page-example'>
+    <div class='floating-title'>
+        Technology
+    </div>
+    <div class="stepper-wrapper">
+        <mat-horizontal-stepper [linear]="isLinear" #stepper class="our-goals-stepper">
+            <mat-step [stepControl]="firstFormGroup">
+            <form [formGroup]="firstFormGroup">
+                <ng-template matStepLabel>FAST</ng-template>
+            </form>
+            </mat-step>
+            <mat-step [stepControl]="secondFormGroup">
+            <form [formGroup]="secondFormGroup">
+                <ng-template matStepLabel>OBJECTIVELY</ng-template>
+            </form>
+            </mat-step>
+            <mat-step>
+            <ng-template matStepLabel>EASY</ng-template>
+            </mat-step>
+        </mat-horizontal-stepper>
+    </div>
+    
+</div>
