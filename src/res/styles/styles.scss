@@ -36,31 +36,7 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
-/* Related to page-example.component */
-.our-goals-stepper {
-    display: inline-flex !important;
-    width: 100%;
-    justify-content: center;
-    background: none;
 
-    .mat-horizontal-content-container {
-        display: none;
-    }
-
-    .mat-step-icon {
-        background: none;
-        font-size: 3rem;
-
-        .ng-star-inserted {
-            color: rgb(96, 94, 94) !important;
-        }
-    }
-
-    .mat-step-label, .mat-stepper-horizontal-line {
-        color: rgb(96, 94, 94) !important;
-    }
-
-    .mat-stepper-horizontal-line {
-        border-top-color: rgba(96, 94, 94, .12) !important;
-    }
+.hidden {
+  display: none;
 }

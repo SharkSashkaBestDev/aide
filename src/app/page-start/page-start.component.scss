@@ -1,22 +1,19 @@
 .page-start {
-    font-weight: 900;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3.75rem;
-    height: 100%;
+  height: 100%;
+  background-image: url(/assets/images/start-background.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .floating-title {
+    margin: auto 15%;
+    font-weight: 600;
     color: white;
-    background-image: url(https://static.wixstatic.com/media/43c038_4ad81e81714f4860b60080b8f9a15a16~mv2_d_5773_3331_s_4_2.jpg/v1/fill/w_1920,h_1108,al_c,q_85,usm_0.66_1.00_0.01/43c038_4ad81e81714f4860b60080b8f9a15a16~mv2_d_5773_3331_s_4_2.webp);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    font-size: 3.75rem;
+    height: auto;
+  }
 
-    .floating-title {
-        display: inline-flex;
-        flex-direction: row;
-        margin: auto 15%;
-        font-weight: 600;
-    }
+  .start-logo {
 
-    .start-logo {
-        
-    }
+  }
 }

@@ -1,22 +1,14 @@
 .page-tryit {
-    font-size: 6.625rem;
-    font-weight: 900;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(96, 94, 94);
-    text-transform: uppercase;
-    height: 100%;
-    background-color: rgb(250, 250, 250);
-    display: flex;
-    flex-direction: column;
+  height: 100%;
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
 
-    &__body {
-        margin-top: auto;
-        margin-bottom: auto;
-    }
+  &__body {
+    margin-top: 5rem;
+  }
 
-    .floating-title {
-        display: inline-flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+  &__text {
+    text-align: center;
+  }
 }

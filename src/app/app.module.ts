@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PageTechnologyComponent } from './page-technology/page-technology.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ScrollWrapperComponent,
     PageNotFoundComponent,
     PageTryItComponent,
-    PageStartComponent
+    PageStartComponent,
+    PageTechnologyComponent
   ],
   imports: [
     BrowserModule,
