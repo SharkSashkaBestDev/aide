@@ -9,7 +9,8 @@
     margin: 0;
 
     .demo-image {
-      height: calc(100% - 21.1875rem);
+      //height: calc(100% - 21.1875rem); // TODO: check if height is correct
+      height: calc(100% - 9rem);
       width: 100%;
       object-fit: contain;
     }
