@@ -1,1 +1,0 @@
-$(document).ready(()=>{!window.chrome||!window.chrome.webstore&&window,$(".demo-image-wrapper .demo-image")});
