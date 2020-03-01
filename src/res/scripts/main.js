@@ -27,7 +27,7 @@ $(document).ready(() => {
     $tweet.parent().removeClass('hidden');
   };
 
-  moveTweet();
+  // moveTweet();
 
   return;
 

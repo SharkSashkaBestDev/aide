@@ -17,6 +17,7 @@ import { MatStepperModule } from '@angular/material/stepper';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
 import { ReactiveFormsModule } from '@angular/forms';
 import { PageTechnologyComponent } from './page-technology/page-technology.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PageTechnologyComponent } from './page-technology/page-technology.compo
     PageNotFoundComponent,
     PageTryItComponent,
     PageStartComponent,
-    PageTechnologyComponent
+    PageTechnologyComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

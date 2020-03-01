@@ -1,6 +1,7 @@
 .footer {
   height: 5rem;
-  background: linear-gradient(90deg, #ebebeb 0%, rgba(205, 205, 205, 0.6) 35%, rgba(235, 235, 235, 0.84) 100%);
+  //background: linear-gradient(90deg, #ebebeb 0%, rgba(205, 205, 205, 0.6) 35%, rgba(235, 235, 235, 0.84) 100%);
+  background: #e7ebf0;
   text-align: center;
   flex-direction: row;
   position: sticky;
@@ -19,6 +20,7 @@
     flex-direction: column;
     flex-grow: 1;
     flex-basis: 0;
+    justify-content: center;
 
     .social {
       display: flex;
@@ -30,6 +32,42 @@
       .icon:not(:first-child) {
         margin-left: .5rem;
       }
+
+      .icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+
+        &.facebook-icon {
+          background-image: url("../../assets/icons/facebook.svg");
+        }
+
+        &.twitter-icon {
+          background-image: url("../../assets/icons/twitter.svg");
+        }
+
+        &.telegram-icon {
+          background-image: url("../../assets/icons/telegram.svg");
+        }
+
+        &.email-icon {
+          background-image: url("../../assets/icons/email.svg");
+        }
+      }
     }
+  }
+
+  &-corp {
+    font-size: 11pt;
+  }
+
+  &-logo {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 2.5rem;
+    background-image: url("../../assets/icons/logo.svg");
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
   }
 }
